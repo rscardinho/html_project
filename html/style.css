@@ -12,30 +12,32 @@ html, body {
   background: #9C9C9C;
 }
 
-div {
-  border: solid 1px black; /*just to debug the divs*/
-}
-
 .center {
   margin-left: auto;
   margin-right: auto;
 }
 
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+
 .right {
-  margin-left: auto;
-  margin-right: 0;
   float: right;
 }
 
 .left {
-  margin-left: 0;
-  margin-right: auto;
   float: left;
 }
 
 .side {
-  width: 20%;
-  height: 60%;
+  width: 400px;
+  height: 30%;
 }
 
 .logo {
@@ -76,4 +78,23 @@ div {
 
 .content {
   width: 100%;
+}
+
+h3 {
+  font-family:arial, verdana, heveltica;
+  color: #E4E4E4;
+  text-transform: uppercase;
+}
+
+.img {
+  max-height: 150px;
+  max-width: 350px;
+  padding-bottom: 40px;
+  display: block;
+}
+
+.center-content {
+  width: 400px;
+  float: right;
+  display: block;
 }
