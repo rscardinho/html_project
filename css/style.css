@@ -61,6 +61,9 @@ html, body {
   text-decoration: none;
 }
 
+a.active {
+  color: white;
+}
 .navbar a:hover {
   color: #fff;
 }
@@ -80,10 +83,18 @@ html, body {
   width: 100%;
 }
 
-h3 {
+h3, .mail-link a {
   font-family:arial, verdana, heveltica;
   color: #E4E4E4;
   text-transform: uppercase;
+}
+
+.mail-link a {
+  text-decoration: none;
+}
+
+.mail-link a:hover {
+  color: white;
 }
 
 .img {
@@ -94,7 +105,58 @@ h3 {
 }
 
 .center-content {
-  width: 400px;
-  float: right;
-  display: block;
+  width: 545px;
+  display: inline-block;
+}
+
+.title {
+  font-weight: normal;
+  margin-top: 40px;
+}
+
+.about-content, .home-content, .services-content {
+  width: 500px;
+  font-size: 14px;
+  font-family:arial, verdana, heveltica;
+  color: white;
+}
+
+.contact-form {
+  width: 365px;
+  font-size: 14px;
+  font-family:arial, verdana, heveltica;
+  color: white;
+}
+
+.home-content-blocks {
+  border: solid 1px white;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.next-events {
+  font-size: 16px;
+  font-family:arial, verdana, heveltica;
+  color: #E4E4E4;
+}
+
+.next-events li {
+  list-style: none;
+  padding-top: 10px;
+}
+
+.services-content a {
+  text-decoration: none;
+  color: #E4E4E4;
+}
+
+.services-content a:hover {
+  text-decoration: underline;
+}
+
+.under-img {
+  margin-top: -30px;
+  font-size: 14px;
+  font-family:arial, verdana, heveltica;
+  color: white;
 }
